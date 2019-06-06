@@ -1,0 +1,176 @@
+.head {
+	width: 1226px;
+	overflow: hidden;/*清除浮动*/
+	margin: auto;/*让head水平居中*/
+}
+.headzuo {
+	width: 300px;
+	height: 58px;
+	float:left;
+}
+.headzuo h2 {
+	color: #33333361;
+	 margin: 10px 15px;/*设置外边距让文字水平垂直居中*/
+}
+.headzhong {
+	width: 200px;
+	height: 58px;
+	float: left;
+	margin: 0 0 0 210px;
+}
+.headzhong h2 {
+
+}
+.headyou {
+	width: 300px;
+	height: 58px;
+	overflow: hidden;/*清除浮动*/
+	margin: auto;
+	float: right;
+}
+.headyou a {
+	color: ##424242;
+/*	text-align: center;*/
+	display: inline-block;
+	 margin: 15px 15px;
+}
+.headyou a:hover {
+	color: #f44;
+}
+.shangpin img {
+	width: 150px;
+	height: 150px;
+	padding: 20px 0 0 25px;/*!!!*/
+}
+.shangpin span {
+	    color: #ff6700;
+}
+.shangpin a {
+		  color: #b0b0b0;
+		  text-decoration: line-through;/*添加删除线*/
+}
+.jingshui img {
+	width: 234px;
+	height: 286px;
+	padding: 0 25px 0 0;/*!!*/
+	margin-bottom: 14px;
+}
+.saodi img {
+	width: 234px;
+	height: 286px;
+	padding: 0 25px 0 0;/*!!*/
+	margin-bottom: 14px;
+}
+.biaotou {
+	width: 64px;	
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;/*让p中本水平居中*/
+	background-color: skyblue;
+}
+.wenzi {
+	width: 130px;
+	height: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;/*和下面价格框拉开距离*/
+	text-align: center;
+}
+.jiage {
+	width: 120px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.jingshui {
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left:90px;
+}
+.remen-2 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.remen-3 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+	margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.remen-4 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.remen-5 {
+	width: 194px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.saodi {
+	width: 234px;
+	height: 286px;
+	float: left;
+	margin-left:90px;
+/*	margin-left: 90px;*/
+}
+.remen-7 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.remen-8 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.remen-9 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}
+.remen-10 {
+	width: 194px;
+    height: 286px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    padding-top: 34px;
+    padding: 0 20px;
+}

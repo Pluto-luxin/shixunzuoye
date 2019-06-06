@@ -1,0 +1,225 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {	/*	所有的li小圆点清除*/
+		list-style: none;
+	}
+a {
+	text-decoration: none;/*所有的A标签下划线清除*/
+}
+.clearfix:befor , clearfix:after {/*清除浮动*/
+	content: "" ;
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+/*!!!!!!!!!!!!!!*/
+.top {
+	width: 100%;
+	/*height: 72px;*/
+	height: 7.2rem;
+	background: rgb(210, 33, 71);
+}
+.top-adderss {
+	float: left;
+	/*width: 133px;
+	height: 71px;*/
+	width: 13.3rem;
+	height: 7.1rem;
+	padding-left: 1.8rem;
+	background-image: url(images/turn-down.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 2rem;
+}
+.top-adderss p {
+	width: 11.3rem;
+	height: 7.1rem;
+	font-size: 14px;
+	line-height: 71px;
+	color: #fff;
+}
+.top-search {
+	float: left;
+	/*width: 275px;
+	height: 71px;*/
+	width: 27.5rem;
+	height: 7.1rem;
+	margin-left: 1rem;
+}
+.top-search input {
+	width: 220px;
+	height: 10px;
+	line-height: 47px;
+	color: #dfbac2;
+	margin-top: 10.8px;
+	padding: 16.9px 0 16.9px 50.4px;
+	border-radius: 18px;
+	background: rgb(174, 62, 86);
+	background-image: url(images/search.png) ;
+	background-size: 31px;
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+}
+.top-mine {
+	float: right;
+	/*width: 82px;
+	height: 71px;*/
+	width: 8.2rem;
+	height: 7.1rem;
+}
+.top-mine a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	padding-left: 34px;
+	font-size: 14px;
+	line-height: 71px;
+	background-image: url(images/user.png) ;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+}
+}
+.container {
+	width: 100%;
+	
+}
+.container-lunbotu {
+	width: 100%;
+	height: 20rem;
+}
+.container-lunbotu img {
+	width: 100%;
+	height: 20rem;
+}
+.container-classfication {
+	width: 100%;
+	height: 20rem;
+	padding: 20px 0;
+	background-color: #ccc;
+}
+.container-classfication li {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: #fff;
+}
+.container-classfication li div {
+	margin: auto;
+	background-color: orange;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.container-classfication li div img {
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+.container-classfication li p {
+	display: block;
+	line-height: 45px;
+	text-align: center;
+	font-size: 16px;
+}
+.brand {
+	width: 100%;
+	height: 20rem;
+}
+.brand li {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 20rem;
+}
+.brand img {
+	width: 100%;
+	height: 100%;
+}
+.container-matong {
+	width: 100%;
+	height: 20rem;
+	padding: 20px 0;
+	background-color: #ccc;
+}
+.container-matong img {
+	width: 100%;
+	height: 20rem;
+}
+.container-H {
+	width: 100%;
+	height: 40rem;
+	padding-bottom: 20px;
+	background-color: #ccc;
+} 
+.container-H li {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 20rem;
+}
+.container-H img {
+	width: 100%;
+	height: 20rem;
+}
+.recommend-title {
+	width: 100%;
+	height: 6rem;
+}
+.recommend-title div {
+	float: left;
+	height: 4rem;
+	border: 2px solid orange;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+.recommend-title h3 {
+	display: inline-block;
+	height: 6rem;
+	line-height: 6rem;
+	margin-left: 2rem;
+}
+.recommend-shangpin li {
+	width: 100%;
+	height: 13.5rem;
+	border-top: 2px solid #ccc;
+	padding: 1.44rem 1.08rem;
+}
+.shangpin-tu img {
+	float: left;
+	width: 15.4rem;
+	height: 100%;
+}
+.shangpin-wenzi {
+	display: inline-block;
+	margin-left: 3rem;
+	width: 41rem;
+	height: 100%;
+}
+.shangpin-wenzi h3 {
+	font-size: 18px;
+	color: #181818;
+}
+.shangpin-wenzi a {
+	display: block;
+	margin-top: 1.6rem;
+    margin-bottom: 4.6rem;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #979797;
+	white-space: nowrap;/*强制在同一行显示所有文本*/
+	overflow: hidden;/*超出部分隐藏*/
+	text-overflow: ellipsis;/*超出部分用省略号代替*/
+}
+ .shangpin-wenzi span {
+ 	font-size: 13px;
+ 	color: #525252;
+ }

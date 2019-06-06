@@ -1,0 +1,186 @@
+html{
+			width: 100%;
+			height: 100%;
+		}
+body{
+			width: 100%;
+			height: 100%;
+			margin: 0%;
+		}
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.box1{
+		width: 100%;
+		height: 35.333px;
+		background: #eee;
+		position: relative;
+}
+.box1 .div1{
+			font-size: 14px;
+    		color: #555;
+    		line-height: 1.7;
+			width: 36px;
+			padding: 6px 180px;
+			display: block;
+			float: left;
+		}
+.box1 .div2{		
+			font-size: 14px;
+    		color: #555;
+    		line-height: 1.7;
+			padding: 6px 180px;
+			text-decoration: none;
+			display: block;
+			float: right;
+		}
+	a{	
+		color: #555;
+		text-decoration: none;
+	}
+.box2{	
+		width: 100%;/*736px*/
+		height: 60px;
+		background: #f5f5f5;
+		position: relative;
+}
+.box2 .div3{
+			width: 216px;
+			height: 60px;	
+	/*背景图		background-image: url(images/logo.png);		*/
+    		background-size: contain;
+    		float: left;
+    		display: inline;
+}
+.box2 .div4{
+			width: 540px;
+			height: 36px;
+	/*		border: 2px solid: #dd182b;		*/
+			display: inline;
+			float: left;
+}
+.box2 .div4 input{
+				width: 430px;
+				height: 32px;
+				border: 1px solid red;
+}
+.box2 .div4 .shousuo{
+				width: 100px;
+				height: 38px;
+				background-color: #dd182b;
+				color: #fff;
+
+}
+.box2 .div5{
+			width: 210px;
+			height: 32px;
+			display: inline;
+			float: left;
+			background-color: #fff;
+}
+.div5 .car{
+/*	width: 200px;	*/
+	height: 40px;
+	color: #f33;
+	background-color: #fff;
+	text-align-last: center;
+	line-height: 40px;
+}
+.box3{
+		width: 100%;
+		height: 540px;
+		position: relative;
+}
+.box3 .div6{
+			width: 216px;
+			height: 520px;
+			background: #6e6568;
+			margin: 1px 1px 1px 200px;
+			float: left;
+}
+.box3 .div6 p{
+	text-align: left;
+	line-height: 33px;
+	color: #fff;
+}
+.box3 .div7{
+			width: 650px;
+			height: 520px;
+			float: left;
+}
+.box3 .div7 .div7-1{
+				width: 650px;
+				height: 290px;
+				float: left;
+}
+.box3 .div7 .div7-1 img{
+					width: 100%;/*650*/
+					height: 100%;/*290px;*/
+					float: left;
+}
+.box3 .div7 .div7-2{
+				width: 650px;
+				height: 290px;
+				float: left;
+}
+.box3 .div7 .div7-2 img{
+					width: 324px;
+					height: 227px;
+					 float: left;
+}
+.box3 .div7 .div7-2-1{
+					width: 324px;
+					height: 227px;
+				float: left;
+}
+.box3 .div7 .div7-2-2{
+					width: 324px;
+					height: 227px;
+					float: left;
+}
+.box3 .div8{
+			width: 260px;/*320*/
+			height: 500px;
+			padding: 10px;
+			float: left;
+			background-color: #f5f5f5;
+}
+.box3 .div8 .div8-1{
+				width: 250px;
+				height: 120px;
+				float: left;
+}
+.box3 .div8 .div8-1-1{
+					width: 250px;
+					height: 93px;
+					line-height: 93px;
+					float: left;
+}
+.box3 .div8 .div8-1-2{
+					width: 250px;
+					height: 23.33px;
+					float: left;
+}
+.box3 .div8 .div8-1-2 .anniu{
+						width: 40%;    /*78.4px;*/
+						height: 25px;
+						border: 2px solid red;
+						background-color: #fff;
+						color: red;
+						float: left;
+						padding: 0px 5px;
+}
+.box3 .div8 .div8-2{
+				width: 250px;
+				height: 400px;
+				float: left;
+}
+.box3 .div8 .div8-2 p{
+					font-size: 14px;
+   					color: #555;
+    				line-height: 1.7;
+}
+				
+				
